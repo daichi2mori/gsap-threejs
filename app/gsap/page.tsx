@@ -1,10 +1,11 @@
-import GsapFrom from "../components/GsapFrom";
-import GsapFromTo from "../components/GsapFromTo";
-import GsapScrollTrigger from "../components/GsapScrollTrigger";
-import GsapStagger from "../components/GsapStagger";
-import GsapText from "../components/GsapText";
-import GsapTimeline from "../components/GsapTimeline";
-import GsapTo from "../components/GsapTo";
+import AirPods from "./components/AirPods";
+import GsapFrom from "./components/GsapFrom";
+import GsapFromTo from "./components/GsapFromTo";
+import GsapScrollTrigger from "./components/GsapScrollTrigger";
+import GsapStagger from "./components/GsapStagger";
+import GsapText from "./components/GsapText";
+import GsapTimeline from "./components/GsapTimeline";
+import GsapTo from "./components/GsapTo";
 
 const page = () => {
   return (
@@ -16,6 +17,7 @@ const page = () => {
       <GsapStagger />
       <GsapScrollTrigger />
       <GsapText />
+      <AirPods />
     </div>
   );
 };

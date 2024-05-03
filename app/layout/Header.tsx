@@ -7,11 +7,14 @@ const Header = () => {
         Home
       </Link>
       <nav className="hidden space-x-4 md:flex">
+        <Link href="/apple" className="font-medium hover:underline underline-offset-4">
+          Apple
+        </Link>
         <Link href="/gsap" className="font-medium hover:underline underline-offset-4">
           Gsap
         </Link>
-        <Link href="/apple" className="font-medium hover:underline underline-offset-4">
-          Apple
+        <Link href="/threejs" className="font-medium hover:underline underline-offset-4">
+          Three.js
         </Link>
       </nav>
     </header>
